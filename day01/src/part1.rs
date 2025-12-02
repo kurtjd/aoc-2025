@@ -2,7 +2,7 @@ const DIAL_START: isize = 50;
 const DIAL_MAX: isize = 100;
 
 pub fn part1() {
-    let input = include_str!("../input.txt");
+    let input = include_str!("../test.txt");
     let mut zeroes = 0;
     let mut start = DIAL_START;
 

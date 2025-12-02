@@ -1,7 +1,7 @@
 use itertools::Itertools;
 
 pub fn part2() {
-    let input = include_str!("../input.txt");
+    let input = include_str!("../test.txt");
     let ranges = input.split(',').map(|s| {
         s.split('-')
             .map(|s| s.parse::<usize>().unwrap())
